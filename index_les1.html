@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CV cá nhân</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .container {
+            max-width: 800px; /* Đặt chiều rộng tối đa cho phần nội dung */
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            page-break-before: always; /* Phân trang giữa hai phần */
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-content,
+        .right-content {
+            width: 48%; 
+            display: inline-block;
+            vertical-align: top;
+        }
+        .separator {
+            width: 4px; /* Chiều rộng của cột phân cách */
+            background-color: #ddd; /* Màu sắc của cột phân cách */
+            margin: 0 16px; /* Khoảng cách giữa cột và nội dung bên trái, phải */
+        }
+        h1, h2, h3, h4, h5 {
+            color: #333; /* Màu chữ */
+        }
+
+        h1 {
+            font-size: 2em; /* Kích thước chữ tiêu đề lớn */
+        }
+
+        h2, h3, h4, h5 {
+            font-size: 1.5em; /* Kích thước chữ tiêu đề nhỏ hơn */
+        }
+
+        h3 {
+            margin-top: 0.5em; /* Khoảng cách giữa tiêu đề và nội dung bên dưới */
+        }
+
+        img {
+            display: block; /* Hiển thị ảnh như một khối, để căn chỉnh theo trung tâm */
+            margin: 0 auto;
+        }
+
+        ul, ol {
+            list-style-type: none; /* Loại bỏ chấm đầu dòng của danh sách */
+            padding: 0;
+        }
+
+        ul li, ol li {
+            margin-bottom: 0.5em; /* Khoảng cách giữa các mục danh sách */
+        }
+
+        a {
+            color: #007BFF; /* Màu chữ của các liên kết */
+            text-decoration: none; /* Loại bỏ gạch chân dưới của liên kết */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Hiển thị gạch chân khi rê chuột qua liên kết */
+        }
+        iframe {
+            width: 100%; /* Đảm bảo iframe chiếm toàn bộ chiều rộng của phần tử cha */
+            height: 400px; /* Điều chỉnh chiều cao của iframe theo nhu cầu */
+            border: none; /* Loại bỏ đường viền của iframe */
+        }
+    </style>
+</head>
+<body>
+    <div class="container left-content">
+        <!-- Nội dung bên trái -->
+        <img src="img/z5173729646970_0143a33f84c6da5afbae3a73749e277f.jpg" alt="Ảnh chân dung CV" style="width: 50%;">
+        <h3> Kỹ năng </h3>
+        <ul>
+            <li> Giao tiêp khách hàng </li>
+            <li> Thuyết phục khách hàng </li>
+            <li> Quản lý nhân sự </li>
+            <li> Quản lý đội nhóm </li>
+            <li> Làm việc nhóm </li>
+            <li> Chịu được áp lực cao </li> 
+        </ul>
+        <h3> Ngoại ngữ </h3>
+        <ul>
+            <li> Tiếng Anh </li>    
+        </ul>
+        <h3> Tin Học </h3>
+        <ul>
+            <li> Word </li>
+            <li> Excel </li>
+            <li> PowerPoint </li>
+        </ul>
+        <h3> Sở Thích </h3>
+        <ul>
+            <li> Đọc sách </li>
+            <li> Học thêm ngoại ngữ </li>
+            <li> Chơi game chiến thuật </li>
+        </ul>
+        <h3> Sản phẩm </h3>
+        <a href="https://github.com/TuanKiet72ttn/C0124l1" target="_blank"> Link GitHub</a>
+        <h3> Trang web giới thiệu </h3>
+        <iframe src="https://codegym.vn" frameborder="0"></iframe>
+    </div>
+    <div class="separator"></div>
+    <div class="container right-content">
+        <!-- Nội dung bên phải -->
+        <h1> Đặng Tuấn Kiệt </h1>
+        <h3> Nhân viên kinh doanh </h3>
+        <ul>
+            <li> Nam </li>                      <li> tuankieta12002@gmail.com </li>
+            <li> 30/06/2002 </li>           <li> 0326 243 640 </li>
+            <li> Đất Đỏ, BRVT </li>
+        </ul>
+        <h3> Mục tiêu nghề nghiêp </h3>
+        <p title="Mục tiêu nghề nghiệp"> Ứng dụng những kinh nghiệm quản lý đội nhóm/ bán hàng .....</p>
+        <h3> Kinh nghiệm làm việc </h3>
+        <p title="Kinh nghiệm làm việc"> 
+            <h5> 06/2022 - 02/2023   *** Trung tâm NS&VSMTNT </h5>
+            <h5> Quản trị hành chính - nhân sự (HR admin) </h5>
+            <ul>
+                <li> Có khả năng phân tích vấn đề và đưa ra giải pháp hiệu quả </li>
+                <li> Có khả năng xây dựng và duy trì mối quan hệ tích cực với nhân viên và các đối tác ngoại vi </li>
+                <li> Có khả năng quản lý nhân sự thông qua các công cụ Excel, ERP </li>
+                <li> Có đề xuất và triển khai chiến lược nhân sự nhằm tăng cường tương tác nhóm và nâng cao hiệu suất làm việc</li>
+                <li> Chịu trách nhiệm chính về việc tối ưu hóa quá trình tuyển dụng giúp giảm 20% chi phí tuyển dụng trong vòng 12 tháng</li>
+            </ul>
+            <h5> CHỨNG CHỈ </h5>
+            <ul>
+                <li> 2022: Chứng chỉ tin học văn phòng IC3 </li>
+                <li> 2022: TOEIC 600 </li>
+                <li> 2023: Chứng chỉ Database and SQL for Data Science </li>
+            </ul>
+            </p>
+        <h2> HỌC VẤN </h2>
+        <h3> 10/2020 - 05/2023   *** ĐẠI HỌC KINH TẾ TPHCM </h3>
+        <h4> CHUYÊN NGÀNH QUẢN TRỊ KINH DOANH</h4>
+        <h5> Loại tốt nghiệp: Giỏi</h5>
+            <ul>
+                <li> Bằng cấp: Cử nhân Đại Học </li>
+                <li> Điểm tổng kết: 8.35/10 </li>
+            </ul>
+    </div>
+</body>
+</html>
