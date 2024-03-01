@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Khảo sát học viên về chương trình CGA Java</title>
+	<style>
+		Body {
+                backgroud-color: rgb(230, 225, 242);
+                padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Intro,  .Infor,  .Course,  .Module,  .Quality_edu_program,  .Quality_knowledge_skill,  .Quality_10,  .Quality_Module_knowledge,  
+        .Quality_Module_theory,  .Quality_Module_practice,  .Complete_exercise,  .Confidence,   .Error,  .Other{
+            width: 42%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            margin: auto;
+            padding: 10px;
+            border: 1px solid rgb(244, 203, 203);
+            margin-bottom: 15px;
+            line-height: 40px;
+        }
+        .End_Form {
+            width: 42%;
+            border-radius: 5px;
+            margin: auto;
+            padding: 10px;
+        }
+        .end2 {
+            text-align: center;
+        }
+        .end3 {
+            font-size: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="Intro">
+        <div class="title">
+            <h1>Khảo sát học viên về chương trình CGA Java</h1>
+        </div>
+
+        <div class="description">
+            <p> Với mục tiêu nâng cao chất lượng đào tạo cũng như xây dựng một chương trình học phù hợp nhất, CodeGym rất mong muốn nhận được ý kiến đóng góp từ các bạn học viên về nội dung chương trình CGA Java. Các bạn hãy trả lời các câu hỏi dưới đây một cách chi tiết và cụ thể để CodeGym có được những dữ liệu xác thực nhất cho việc cải tiến, điều chỉnh chương trình học hiện tại.
+            Cảm ơn các bạn!
+            </p>           
+            <hr>
+            <span class="email">tuankiet@gmail.com</span>
+            <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Dvi&ec=GAlA8wE&hl=vi&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1979845103%3A1709131658238518&theme=glif">Chuyển đổi tài khoản</a><br>
+            <p> Không được chia sẽ </p>
+            <hr>
+            <h5 style="color: red"> * Biểu thị câu hỏi bắt buộc </h5>
+        </div>
+    </div>
+
+    <div class="Infor">
+        <h3>Tên học viên <span style="color: red">*</span> </h3>
+        <input type="text"><span>Câu trả lời của bạn</span>
+        <div class="note1">Đây là một câu hỏi bắt buộc</div>
+    </div>
+
+    <div class="Course">
+        <h3> Lớp bạn đang học <span style="color: red">*</span> </h3>
+        <input type="radio" name="Course" value="ĐN-A0222I1"><label>ĐN-A0222I1</label>
+        <input type="radio" name="Course" value="ĐN-A0422I1"><label>ĐN-A0422I1</label>
+        <input type="radio" name="Course" value="ĐN-A0522I1"><label>ĐN-A0522I1</label>
+        <input type="radio" name="Course" value="ĐN-A0622I1"><label>ĐN-A0622I1</label>
+        <input type="radio" name="Course" value="ĐN-A0722I1"><label>ĐN-A0722I1</label>
+        <input type="radio" name="Course" value="ĐN-A0822I1"><label>ĐN-A0822I1</label>
+        <input type="radio" name="Course" value="ĐN-A0922I1"><label>ĐN-A0922I1</label>
+        <input type="radio" name="Course" value="ĐN-A1022I1"><label>ĐN-A1022I1</label>
+        <input type="radio" name="Course" value="ĐN-A1122I1"><label>ĐN-A1122I1</label>
+        <input type="radio" name="Course" value="Mục khác: "><label> Mục khác: </label>
+    </div>
+
+    <div class="Module">        
+        <h3>Module bạn đã và đang học: <span style="color: red">*</span> </h3> 
+        <br> 
+        <input type="checkbox"> <span>Module 1: Bootcamp Preparation</span><br>        
+        <input checked type="checkbox"> <span>Module 2: Advanced Programming with Java</span><br>        
+        <input type="checkbox"> <span>Module 3: Web Backend Development with JSP/Servlet</span><br>
+        <input type="checkbox"> <span>Module 4: Web Backend Development with Spring MVC</span><br>        
+        <input type="checkbox"> <span>Module 5: Web Frontend Development with AngularJS</span><br>        
+        <input type="checkbox"> <span>Module 6: Dự án và phát triển nghề nghiệp</span><br>
+    </div>    
+
+    <div class="Quality_edu_program">
+        <h3> Thiết kế chương trình học là 12 tháng cho 6 module có phù hợp với bạn không? <span style="color: red">*</span> </h3>       
+        <input name="testqe" type="radio"> <span> Hợp lý </span><br>        
+        <input name="testqe" type="radio"> <span> Không hợp lý </span><br>        
+        <input name="testqe" type="radio"> <span> Mục khác... </span><br>    
+    </div> 
+
+    <div class="Quality_knowledge_skill">        
+        <h3> Kiến thức và kĩ năng chương trình cung cấp có đáp ứng được kì vọng, mong đợi của bạn không? <span style="color: red">*</span> </h3>
+        <input name="testqk" type="radio"> <span> Có </span><br>        
+        <input name="testqk" type="radio"> <span> Không  </span><br>        
+        <input name="testqk" type="radio"> <span> Mục khác...</span><br>        
+    </div>
+
+    <div class="Quality_10">        
+        <h3> Bạn đánh giá như thế nào về chất lượng học liệu của chương trình trên thang điểm 10? <span style="color: red">*</span> </h3>
+        <table class="table2">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+                <td><input type="radio"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="Quality_Module_knowledge">        
+        <h3> Việc phân bổ kiến thức cho từng module có phù hợp không? <span style="color: red">*</span> </h3>
+        <input name="testqmk" type="radio"> <span> Phù hợp </span><br>        
+        <input name="testqmk" type="radio"> <span> Không phù hợp </span><br>        
+        <input name="testqmk" type="radio"> <span> Mục khác... </span><br>    
+    </div>
+
+    <div class="Quality_Module_theory">        
+        <h3> Thời gian học lý thuyết có phù hợp với bạn không? <span style="color: red">*</span> </h3>
+        <input name="testqmt" type="radio"> <span> Phù hợp </span><br>        
+        <input name="testqmt" type="radio"> <span> Không phù hợp </span><br>        
+        <input name="testqmt" type="radio"> <span> Mục khác... </span><br>    
+    </div>
+
+    <div class="Quality_Module_practice">        
+        <h3> Thời gian học thực hành có phù hợp với bạn không? <span style="color: red">*</span> </h3>
+        <input name="testqmp" type="radio"> <span> Phù hợp </span><br>        
+        <input name="testqmp" type="radio"> <span> Không phù hợp </span><br>        
+        <input name="testqmp" type="radio"> <span> Mục khác... </span><br>    
+    </div>
+
+    <div class="Complete_exercise">        
+        <h3> Bạn có thường xuyên hoàn thành nhiệm vụ ngày đúng thiết kế của chương trình không? <span style="color: red">*</span> </h3>
+        <input name="testqmp" type="radio"> <span> Có  </span><br>        
+        <input name="testqmp" type="radio"> <span> Không </span><br>        
+        <input name="testqmp" type="radio"> <span> Mục khác... </span><br>    
+    </div>
+
+    <div class="Confidence">        
+        <h3> Bạn có tự tin mình đã có đủ năng lực (kiến thức, kỹ năng,...) để học module tiếp theo? <span style="color: red">*</span> </h3>
+        <input name="testqmp" type="radio"> <span> Có  </span><br>        
+        <input name="testqmp" type="radio"> <span> Không </span><br>        
+        <input name="testqmp" type="radio"> <span> Mục khác... </span><br>    
+    </div>
+
+    <div class="Error">        
+        <h3> Bạn có gặp lỗi nào khi sử dụng học liệu không? (Tên module - Tên bài - Link bài học bị lỗi) <span style="color: red">*</span> </h3>
+        <input name="ero" type="radio"> <span> Có  </span><br>        
+        <input name="testqmp" type="radio"> <span> Không </span><br>        
+        <input name="testqmp" type="radio"> <span> Mục khác... </span><br>    
+    </div>
+
+    <div class="Other">        
+        <h3> Ý kiến khác (nếu có). <span style="color: red">*</span> </h3>
+    </div>    
+
+    <div class="End_form">        
+        <table>            
+            <td><button style="text-align: left; color: rgb(255, 255, 255)"> Gửi</button> </td>            
+            <td><button style="text-align: right; color: blue; border: none"> Xóa hết câu trả lời </button></td>
+        </table>
+        <p> Không bao giờ gửi mật khẩu thông qua Google Biểu mẫu. </p>
+
+        <div class="End2">
+            <span> Biểu mẫu này đã được tạo ra bên trong CodeGym. </span> 
+            <a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe1olspaRRA6bBvP8X6URaEecSY6vj7TrU_RGgZzQArs74YBQ/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSe1olspaRRA6bBvP8X6URaEecSY6vj7TrU_RGgZzQArs74YBQ/viewform">Báo cáo Lạm dụng </a>        
+        </div>
+
+        <div class="End3">            
+        <h2> Google Biểu mẫu </h2>        
+        </div>    
+    </div>
+</body>
+</html>
+
+
