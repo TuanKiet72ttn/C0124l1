@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .responsive {
+            width: 25%;
+            height: 400px;
+            float: left;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .img {
+            border: 1px solid rgb(193, 164, 164);
+            height: auto;
+        }
+        a img {
+            width: 100%;
+        }
+        p {
+            text-align: center;
+            padding: 20px;
+        }
+        h2, h4 {
+            margin-bottom: 20px;
+        }   
+        @media screen and (min-width: 577px) and (max-width: 768px) {
+            .responsive {
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 576px) {
+            .responsive {
+                width: 100%;
+                float: none;
+                padding: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2> Responsive Image Gallery </h2>
+    <h4> Resize the browser window to see the effect.</h4>
+    <div class="responsive">
+        <div class="img">
+            <a target="_blank">
+                <img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="">
+            </a>
+            <p> Add a description of the image here </p>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="img">
+            <a target="_blank">
+                <img src="https://demo.codegym.vn/web/15/gallery/img_forest.jpg" alt="">
+            </a>
+            <p> Add a description of the image here </p>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="img">
+            <a target="_blank">
+                <img src="https://demo.codegym.vn/web/15/gallery/img_lights.jpg" alt="">
+            </a>
+            <p> Add a description of the image here </p>
+        </div>
+    </div>
+    <div class="responsive"> 
+        <div class="img">
+            <a target="_blank">
+                <img src="https://demo.codegym.vn/web/15/gallery/img_mountains.jpg" alt="">
+            </a>       
+            <p> Add a description of the image here </p>
+        </div>
+    </div>
+</body>
+</html>
