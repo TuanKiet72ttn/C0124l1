@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            background-color: rgb(205, 205, 205);
+            grid-template-areas: 
+            "header header hearder header"
+            "intro intro intro intro"
+            "left main main right"
+            "footer footer footer footer";
+            gap: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .item {
+            background-color: yellow;
+            padding: 20px;
+        }
+        .i1 {
+            background-color: blue;
+            grid-column: 1/5;
+            grid-area: 'header';
+            text-align: left;
+            padding: 20px;
+        }
+        .i1 a {
+            color: white;
+            font-size: 16px;
+        }
+        .i2 {
+            grid-area: 'intro';
+            grid-column: 1/5;
+            background-color: rgb(205, 205, 205);
+            font-size: 12px;
+
+        }
+        .i3 {
+            grid-area: 'left';
+        }
+        .i4 {
+            grid-column: 2/4;
+            grid-area: 'main';
+            height: 200px;
+        }
+        .i5 {
+            grid-area: 'right';
+        }
+        .i6 {
+            grid-row: 4;
+            grid-column: 1/5;
+            grid-area: 'footer';
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item i1">
+            <a href="" target="_blank"> Home </a>  
+            <a href="" target="_blank"> About </a>  
+            <a href="" target="_blank"> Contact </a>  
+        </div>
+        <div class="item i2">
+            <h2 style="text-align: center;"> A Demo Site CSS Grid </h2>
+            <pre>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque pariatur possimus alias quod ratione incidunt dicta assumenda repudiandae optio eveniet, quisquam fuga! Nam eaque fuga similique quia, esse non libero?
+
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo libero doloremque, eum quis laudantium hic iste ab sed ipsum veniam, quam dolor rem cupiditate corrupti aliquam repudiandae officia soluta impedit!
+            </pre>
+        </div>
+        <div class="item i3">2</div>
+        <div class="item i4">3</div>
+        <div class="item i5">4</div>
+        <div class="item i6">5</div>
+    </div>
+</body>
+</html>
