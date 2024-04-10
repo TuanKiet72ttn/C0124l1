@@ -40,8 +40,8 @@ body {
     width: 136px;
     height: 34px;
     display: block;
-    background: url(https://cafefcdn.com/web_images/cafef_logo2022.svg);
-    background-size: 100%;
+    background: url(logo.webp) no-repeat;
+    background-size: 100% 100%;
     margin-top: 4px;
 }
 .ma_ck {
@@ -59,7 +59,7 @@ body {
 }
 .ma_ck ul li {
     border-right: 1px dotted #c2c2c2;
-    height: 36px;
+    height: 32px;
     cursor: pointer;
     font-size: 12px;
     line-height: 16px;
@@ -70,7 +70,7 @@ body {
     font-family: Roboto-Regular;
     width: 87px;
     float: left;
-    padding-top: 4px;
+    padding-top: -8px;
 }
 .ma_ck .icon_dropdown {
     background-position: -161px 0;
@@ -81,3 +81,132 @@ body {
     right: -35px;
     position: absolute;
 }
+.header_new {
+    border-top: 1px solid #fff;
+}
+.header_new-flex {
+    display: flex;
+}
+.header_new .menupage {
+    margin-top: 42px;
+    width: 132px;
+}
+.header_new .menupage a {
+    color: #333;
+    font-family: Roboto-Regular;
+    width: 130px;
+    height: 26px;
+    display: block;
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-size: 11px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+.header_new .menupage a.liveboard .icon_sent {
+    background-position: -185px -241px;
+}
+.header_new .menupage .icon_sent {
+    width: 23px;
+    height: 14px;
+    margin: 5px 5px 0 5px;
+}
+.header_new .menupage a.end {
+    margin-bottom: 0;
+}
+.header_new .menupage a.list_invest {
+    background-position: -153px -306px;
+}
+.header_new .menupage a {
+    color: #333;
+    font-family: Roboto-Regular;
+    width: 130px;
+    height: 26px;
+    display: block;
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-size: 11px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.news .title_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_new .list_news {
+    margin-top: 1px;
+    display: block;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+}
+.header_new .list_news {
+    margin-top: 1px;
+    display: block;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.header_new .list_news ul li:first-child {
+    margin-top: 3px;
+    border-top: 1px solid #f0f0f0;
+}
+.header_new .list_news ul li {
+    position: relative;
+    padding: 4px 10px 4px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-top: 1px solid #f0f0f0;
+    max-width: 460px;
+    display: flex;
+}
+
+.menucategory {
+    width: 100%;
+    background: #004370;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 9px;
+    z-index: 9999;
+    will-change: transform;
+    transform: translateZ(0);
+}
+.menucategory ul {
+    display: flex;
+    align-items: center;
+    width: 1160px; 
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.menucategory ul li {
+    padding: 0 8px;
+    height: 38px;
+}
+.menucategory ul li.li_left {
+    padding-left: 15px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
