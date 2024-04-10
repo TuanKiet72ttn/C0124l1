@@ -209,4 +209,112 @@ ul {
     margin: 0;
     list-style: none;
 }
+/* Main */
+.main {
+    width: 1210px ;
+    margin: 0 auto;
+    background: #fff;
+}
+.wp1040 {
+    width: 1040px;
+    margin: 0 auto;
+}
+.noibat_home {
+    margin-top: 0;
+    padding-top: 20px;
+}
+.noibat_home {
+    width: 100%;
+    display: flex;
+    margin-top: 19px;
+    justify-content: space-between;
+}
+.noibat_home .news_left {
+    width: 710px;
+}
+a, input, select, textarea {
+    outline: 0;
+}
+a {
+    text-decoration: none;
+    color: #666;
+    outline: 0;
+}
+.top_noibat .top_noibat_row1 h2 a {
+    font-size: 23px;
+    color: #1c1c1c;
+    font-family: Roboto-Bold;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.noibat_home .top_noibat_row1 .bghltop {
+    background: #ecf8ff;
+    display: flex;
+}
+.top_noibat .bghltop .box-content {
+    width: 315px;
+    flex: 1;
+    padding: 10px 12px;
+}
+.top_noibat .bghltop .sapo {
+    font-size: 14px;
+    font-family: Arial;
+    color: #5f5f5f;
+    display: block;
+    margin-top: 10px;
+    line-height: 21px;
+    font-weight: 400;
+}
+.top_noibat .top_noibat_row1 .box-relasedhl {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dotted #ccc;
+}
+.top_noibat .top_noibat_row1 .box-relasedhl .relasedhl {
+    display: block;
+    font: normal 13px/17px Roboto-Medium;
+    color: #444;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+}
+.top_noibat .bghltop .avatar {
+    width: 370px;
+}
+.avatar .cover, .avatar img {
+    width: 100%;
+    height: 100%;
+}
+.avatar img, .item-image img {
+    background: #f1f1f1;
+}
+.img-resize {
+    display: block;
+    position: relative;
+    height: max-content;
+}
 
+.img-resize img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.top_noibat .top_noibat_row2 {
+    display: flex;
+    justify-content: space-between;
+}
+.mgt20 {
+    margin-top: 20px;
+}
+.top_noibat .top_noibat_row2 .big {
+    width: 223px;
+}
