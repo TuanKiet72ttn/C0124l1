@@ -1456,3 +1456,22 @@ ul {
     line-height: 31px;
     display: block;
 }
+
+@media screen and (min-width: 769px) {
+    .responsive {
+        width: 30%%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .responsive {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .responsive {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
